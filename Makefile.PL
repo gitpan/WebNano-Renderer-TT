@@ -20,14 +20,14 @@ my %WriteMakefileArgs = (
   },
   'DISTNAME' => 'WebNano-Renderer-TT',
   'EXE_FILES' => [],
-  'LICENSE' => 'perl',
+  'LICENSE' => 'artistic_2',
   'NAME' => 'WebNano::Renderer::TT',
   'PREREQ_PM' => {
     'File::Spec' => '0',
     'Object::Tiny::RW' => '0',
     'Template' => '0'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }
